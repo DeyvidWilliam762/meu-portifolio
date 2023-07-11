@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css" />
+  <title>Portifolio</title>
+  <script src="https://kit.fontawesome.com/72620e2e4d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+ 
+  <title>Document</title>
+</head>
+<body class="body">
+  <main class="containerPrimary">
+    <div class="header">
+      <nav class="links">
+        <div class="btnEsp">
+          <i id="listBy" class="bi bi-list"></i>
+          <ul>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu">
+                  <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+                  <span class="txtLink">Home</span>
+                </button>
+              </a>
+            </li>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu">
+                  <span class="icon"><i class="bi bi-columns-gap"></i></span>
+                  <span class="txtLink">Projetos</span>
+                </button>
+              </a>
+            </li>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu">
+                  <span class="icon"><i class="bi bi-calendar3"></i></span>
+                  <span class="txtLink">Agenda de estudos</span>
+                </button>
+              </a>
+            </li>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu">
+                  <span class="icon"><i class="bi bi-boxes"></i></span>
+                  <span class="txtLink">Conhecimentos</span>
+                </button>
+              </a>
+            </li>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu">
+                  <span class="icon"><i class="bi bi-file-earmark-medical"></i></span>
+                  <span class="txtLink">Certificados</span>
+                </button>
+              </a>
+            </li>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu">
+                  <span class="icon"><i class="bi bi-person-circle"></i></span>
+                  <span class="txtLink">Conta</span>
+                </button>
+              </a>
+            </li>
+            <li class="itemMenu">
+              <a href="#">
+                <button class="btnFullMenu" id="btnDarkMode">
+                  <span class="icon"><i class="bi bi-moon-fill"></i></span>
+                  <span class="txtLink">alterar modo</span>
+                </button>
+              </a>
+            </li>
+
+            <div class="menuDarkMode">
+              <h2>Alterar Modo</h2>
+              <label class="switch">
+                <input type="checkbox"  id="darkModeSelect" onclick="darkModeSelect()" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
